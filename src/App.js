@@ -6,18 +6,19 @@ import Panel from "./components/Panel/Panel";
 import Topbar from "./components/Topbar/Topbar";
 import Course from "./pages/Course/Course";
 import Profile from "./pages/Profile/Profile";
+import UserDoc from "./pages/UserDoc/UserDoc";
 
 function App() {
-  const [togglepanel,settogglepanel]=useState(true);
+  const [togglepanel, settogglepanel] = useState(true);
 
-  const handletogglepanel= ()=>{
-    settogglepanel(!togglepanel)
-  }
+  const handletogglepanel = () => {
+    settogglepanel(!togglepanel);
+  };
 
   return (
     <BrowserRouter>
       <div className="App">
-        <div className={togglepanel ? 'app-main hide' : 'app-main show'}>
+        <div className={togglepanel ? "app-main hide" : "app-main show"}>
           <div className="topbar">
             <Topbar toggle={handletogglepanel} />
           </div>
@@ -32,10 +33,13 @@ function App() {
               <Route path="/profile">
                 <Profile />
               </Route>
+              <Route path='/userdoc'>
+                <UserDoc />
+              </Route>
             </Switch>
           </div>
         </div>
-        <div className={togglepanel ? 'app-sidebar show' : 'app-sidebar hide'} >
+        <div className={togglepanel ? "app-sidebar show" : "app-sidebar hide"}>
           <Panel show={togglepanel} />
         </div>
       </div>

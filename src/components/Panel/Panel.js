@@ -74,6 +74,7 @@ export default function Panel(props) {
                 {" "}
                 جلسات آنلاین پیش رو
               </li>
+              <Link to='userdoc'>
               <li
                 className={
                   splitLocation[1] === "userdoc"
@@ -83,6 +84,7 @@ export default function Panel(props) {
               >
                 مدارک
               </li>
+              </Link>
               <li
                 className={
                   splitLocation[1] === "alalalalal"
