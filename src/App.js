@@ -5,6 +5,7 @@ import Dashboard from "./pages/Dashboard/Dashboard";
 import Panel from "./components/Panel/Panel";
 import Topbar from "./components/Topbar/Topbar";
 import Course from "./pages/Course/Course";
+import Profile from "./pages/Profile/Profile";
 
 function App() {
   const [togglepanel,settogglepanel]=useState(true);
@@ -27,6 +28,9 @@ function App() {
               </Route>
               <Route path="/course">
                 <Course />
+              </Route>
+              <Route path="/profile">
+                <Profile />
               </Route>
             </Switch>
           </div>

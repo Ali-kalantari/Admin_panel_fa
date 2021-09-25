@@ -1,0 +1,109 @@
+.profile {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.profile-box {
+  width: 94%;
+  height: 420px;
+  background-color: #fff;
+  box-shadow: 0px 0px 17px 6px rgba(81, 120, 122, 0.43);
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.profile-form {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 15px;
+}
+#user-id {
+  width: 100%;
+}
+#user-firstname,
+#user-id,
+#user-lastname,
+#user-nationalcode,
+#user-gender,
+#user-phone,
+#user-email {
+  border-radius: 7px;
+  background-color: #d8dbe0;
+  height: 35px;
+  margin-top: 10px;
+  text-align: right;
+  font-size: 15px;
+  border: none;
+}
+#user-lastname {
+  width: 100%;
+}
+#user-firstname {
+  width: 95%;
+}
+
+.user-info-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 10px;
+  align-items: flex-start;
+}
+.profile label {
+  font-size: 13px;
+  float: right;
+}
+.user-lastname-container,
+.user-firstname-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#user-nationalcode,
+#user-phone {
+  background-color: #fff !important;
+  width: 95%;
+  border: 1px solid lightgray;
+}
+#user-gender,
+#user-email {
+  width: 100%;
+  background-color: #fff !important;
+  border: 1px solid lightgray;
+}
+.profile-btn {
+  margin-top: 20px;
+  background-color: rgb(39, 39, 212);
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  font-family: 'FontsFree-Net-ir_sans';
+  cursor: pointer;
+}
+.two-step-enter{
+    font-size: 12px;
+    border: 1px solid blue;
+    width: 175px;
+    color: rgb(30, 30, 192);
+    margin-top: 30px;
+    border-radius: 3px;
+    padding: 3px;
+    text-align: center;
+    align-self: flex-end;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.two-step-enter:hover{
+    background-color: rgba(16, 16, 238, 0.979);
+    color: white;
+    transition: all 0.3s ease-in;
+}
