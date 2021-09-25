@@ -1,0 +1,116 @@
+.panel.hide {
+  width: 0%;
+  /* background-color: #303c54; */
+  position: fixed;
+  right: -100px;
+  top: 0px;
+  transition: all 0.4s ease-in;
+}
+.panel.show {
+  width: 18%;
+  background-color: #303c54;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: all 0.4s ease-in;
+}
+.panel-top {
+  background-color: #303c54;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+#panel-title {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  color: white;
+}
+.panel-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.panel-bottom {
+  height: 570px;
+  display: flex;
+}
+.sidebar-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+}
+.sidebar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 10%;
+  margin-bottom: 5px;
+}
+.sidebar.active {
+  -webkit-box-shadow: 12px 0px 20px 10px rgba(71, 71, 71, 0.49);
+  box-shadow: 12px 0px 20px 10px rgba(85, 80, 80, 0.49);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #456;
+}
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  width: 54%;
+  color: white !important;
+  cursor: pointer;
+}
+.tab-content {
+  background-color: #456;
+  width: 95%;
+  display: flex;
+  height: 100%;
+}
+.sidebar-item.icon {
+  color: white;
+  font-size: 21px;
+}
+.panel-tabs {
+  width: 90%;
+  margin-top: 20px;
+  display: flex;
+  align-items: self-end;
+  flex-direction: column;
+  color: white;
+}
+.panel-tabs ul {
+  list-style: none;
+  width: 100%;
+}
+.tabs-title {
+  font-weight: 600;
+  font-size: 12px;
+}
+.tabs-item {
+  width: 100%;
+  margin-top: 18px;
+  font-size: 13px;
+  color: gray;
+  margin-right: 5px;
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
+.tabs-item.active {
+  color: violet;
+}
+
+
+@media(min-width: 368px) and (max-width:992px ){
+  .panel.show{
+    right: -290px;
+  }
+
+}
