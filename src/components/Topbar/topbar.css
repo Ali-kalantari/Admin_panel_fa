@@ -67,22 +67,19 @@
     font-size: 12px;
     /* margin-right: -40px; */
 }
-.topbar-bottom-left{
-    /* width: 8%; */
-    display: inline;
-    padding: 4px;
-    font-size: 12px;
-    margin-left: 10px;
-    background-color:tomato;
-    text-align: center;
-    height: 25px;
-    border-radius: 5px;
-    cursor: pointer;
-}
+
 .topbar-bottom-link{
     text-decoration: none;
-    width: 10%;
+    width: 7%;
     color: white;
+    padding: 2px;
+    font-size: 12px;
+    margin-left: 10px;
+    background-color:#f04728;
+    text-align: center;
+    height: 21px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .topbar-right a{
     color: inherit;
@@ -116,14 +113,16 @@
 }
 
     
-@media(min-width: 768px) and (max-width:992px ){
+@media(min-width: 992px) and (max-width:768px ){
     .topbar-bottom-link{
-        width: 17%;
+        background-color: blue;
+        width: 57%;
     }
 }
 
-@media(min-width: 992px) and (max-width:522px ){
+@media(min-width: 222px) and (max-width:992px ){
     .topbar-bottom-link{
-        width: 100%;
+        width: 15%;
     }
+    
 }

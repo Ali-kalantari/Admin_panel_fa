@@ -60,7 +60,7 @@ export default function Topbar(props) {
       </div>
       <div className="topbar-bottom">
         <Link to="profile" className="topbar-bottom-link">
-          <div className="topbar-bottom-left">علی کلانتری</div>
+          علی کلانتری
         </Link>
         <div className="topbar-bottom-right">کلاس ها</div>
       </div>
