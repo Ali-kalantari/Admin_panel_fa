@@ -61,27 +61,27 @@ export default function Panel(props) {
                   کلاس ها
                 </li>
               </Link>
-              <Link to='/match'>
-              <li
-                className={
-                  splitLocation[1] === "match"
-                    ? "tabs-item active"
-                    : "tabs-item"
-                }
-              >
-                آزمون های پیش رو
-              </li>
+              <Link to="/match">
+                <li
+                  className={
+                    splitLocation[1] === "match"
+                      ? "tabs-item active"
+                      : "tabs-item"
+                  }
+                >
+                  آزمون های پیش رو
+                </li>
               </Link>
-              <Link to='/evalution'>
-              <li
-                className={
-                  splitLocation[1] === "evalution"
-                    ? "tabs-item active"
-                    : "tabs-item"
-                }
-              >
-                ارزیابی ها
-              </li>
+              <Link to="/evalution">
+                <li
+                  className={
+                    splitLocation[1] === "evalution"
+                      ? "tabs-item active"
+                      : "tabs-item"
+                  }
+                >
+                  ارزیابی ها
+                </li>
               </Link>
               <Link to="/onlineclass">
                 <li
@@ -165,7 +165,7 @@ export default function Panel(props) {
                     : "tabs-item"
                 }
               >
-                 تکالیف فعال
+                تکالیف فعال
               </li>
               <Link to="/dashboard">
                 <li

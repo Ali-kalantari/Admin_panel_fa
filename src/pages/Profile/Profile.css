@@ -86,24 +86,24 @@
   border-radius: 5px;
   color: white;
   font-size: 12px;
-  font-family: 'FontsFree-Net-ir_sans';
+  font-family: "FontsFree-Net-ir_sans";
   cursor: pointer;
 }
-.two-step-enter{
-    font-size: 12px;
-    border: 1px solid blue;
-    width: 175px;
-    color: rgb(30, 30, 192);
-    margin-top: 30px;
-    border-radius: 3px;
-    padding: 3px;
-    text-align: center;
-    align-self: flex-end;
-    margin-right: 30px;
-    cursor: pointer;
+.two-step-enter {
+  font-size: 12px;
+  border: 1px solid blue;
+  width: 175px;
+  color: rgb(30, 30, 192);
+  margin-top: 30px;
+  border-radius: 3px;
+  padding: 3px;
+  text-align: center;
+  align-self: flex-end;
+  margin-right: 30px;
+  cursor: pointer;
 }
-.two-step-enter:hover{
-    background-color: rgba(16, 16, 238, 0.979);
-    color: white;
-    transition: all 0.3s ease-in;
+.two-step-enter:hover {
+  background-color: rgba(16, 16, 238, 0.979);
+  color: white;
+  transition: all 0.3s ease-in;
 }

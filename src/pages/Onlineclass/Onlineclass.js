@@ -8,7 +8,10 @@ export default function Onlineclass() {
       <div className="online-shadow">
         <div className="online-box">
           <div className="online-title">
-            <span>           جلسات آنلاین یک هفته پیش رو در این صفحه قابل مشاهده است </span>
+            <span>
+              {" "}
+              جلسات آنلاین یک هفته پیش رو در این صفحه قابل مشاهده است{" "}
+            </span>
           </div>
           <div className="online-table">
             <table id="table">

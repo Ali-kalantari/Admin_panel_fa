@@ -36,19 +36,19 @@ function App() {
               <Route path="/profile">
                 <Profile />
               </Route>
-              <Route path='/userdoc'>
+              <Route path="/userdoc">
                 <UserDoc />
               </Route>
-              <Route path='/onlineclass'>
+              <Route path="/onlineclass">
                 <Onlineclass />
               </Route>
-              <Route path='/changepassword'>
+              <Route path="/changepassword">
                 <ChangePassword />
               </Route>
-              <Route path='/match'>
+              <Route path="/match">
                 <Match />
               </Route>
-              <Route path='/evalution'>
+              <Route path="/evalution">
                 <Evalution />
               </Route>
             </Switch>

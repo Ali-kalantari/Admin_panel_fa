@@ -1,63 +1,62 @@
-.user-doc{
-width: 100%;
+.user-doc {
+  width: 100%;
 }
-.user-doc-box{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 45px;
-    height: 200px;
+.user-doc-box {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 45px;
+  height: 200px;
   box-shadow: 0px 0px 17px 6px rgba(81, 120, 122, 0.39);
-
 }
-.user-doc-box-up{
-width: 100%;
-height: 50%;
-border-bottom: 1px solid rgba(201, 193, 193,0.65);
-display: flex;
-justify-content: center;
-align-items: center;
+.user-doc-box-up {
+  width: 100%;
+  height: 50%;
+  border-bottom: 1px solid rgba(201, 193, 193, 0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.user-doc-box-down{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.user-doc-item{
-    width: 90%;
-    background-color: #feefd0;
-    color: #815c15;
-    text-align: right;
-    height: 50px;
-    font-size: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-.user-doc-items{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.user-doc-item-content{
-    margin-right: 18px;
+.user-doc-box-down {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.add-new-doc{
-    padding: 5px;
-    border: 1px solid blue;
-  font-family: 'FontsFree-Net-ir_sans';
-    font-size: 11px;
-    color: blue;
-    cursor: pointer;
-    border-radius: 4px;
-    margin-right: 15px;
+.user-doc-item {
+  width: 90%;
+  background-color: #feefd0;
+  color: #815c15;
+  text-align: right;
+  height: 50px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-.add-new-doc:hover{
-    color: #fff;
-    background-color:blue;
+.user-doc-items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.user-doc-item-content {
+  margin-right: 18px;
+}
+
+.add-new-doc {
+  padding: 5px;
+  border: 1px solid blue;
+  font-family: "FontsFree-Net-ir_sans";
+  font-size: 11px;
+  color: blue;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+.add-new-doc:hover {
+  color: #fff;
+  background-color: blue;
 }

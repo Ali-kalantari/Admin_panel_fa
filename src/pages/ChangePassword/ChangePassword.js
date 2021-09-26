@@ -13,17 +13,17 @@ export default function ChangePassword() {
               رمز عبور قدرتمند به امنیت اطلاعات شما کمک می کند
             </span>
           </div>
-          <div className='change-pass-form'>
-              <form id='pass-form'>
-                <label>کلمه عبور فعلی</label>
-                <input type='password'/>
-                <label>کلمه عبور جدید</label>
-                <input type='password'/>
-                <label>تکرار کلمه عبور جدید</label>
-                <input type='password'/>
-                <br/>
-                <button>به روز رسانی رمز عبور</button>
-              </form>
+          <div className="change-pass-form">
+            <form id="pass-form">
+              <label>کلمه عبور فعلی</label>
+              <input type="password" />
+              <label>کلمه عبور جدید</label>
+              <input type="password" />
+              <label>تکرار کلمه عبور جدید</label>
+              <input type="password" />
+              <br />
+              <button>به روز رسانی رمز عبور</button>
+            </form>
           </div>
         </div>
       </div>

@@ -1,61 +1,61 @@
-.course{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.course {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.course-container{
-    background-color:white;
-    margin-top: 70px;
-    max-height: 350px;
-    padding-bottom: 30px;
-    width: 90%;-webkit-box-shadow: 0px 0px 18px 4px rgba(0,0,0,0.3); 
-    box-shadow: 0px 0px 18px 4px rgba(0,0,0,0.3);
-    overflow-y: scroll;
-    
+.course-container {
+  background-color: white;
+  margin-top: 70px;
+  max-height: 350px;
+  padding-bottom: 30px;
+  width: 90%;
+  -webkit-box-shadow: 0px 0px 18px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 18px 4px rgba(0, 0, 0, 0.3);
+  overflow-y: scroll;
 }
-.course-header-title,.course-content{
-    width: 98%;
-    margin: auto;
-    height: 30px;
-    /* background-color: #987; */
-    display: flex;
-    justify-content: flex-end;
-    text-align: right;
-    align-items: center;
-    font-size: 13px;
-    border-top: 1px solid lightgray;
-    margin-top: 25px;
+.course-header-title,
+.course-content {
+  width: 98%;
+  margin: auto;
+  height: 30px;
+  /* background-color: #987; */
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  align-items: center;
+  font-size: 13px;
+  border-top: 1px solid lightgray;
+  margin-top: 25px;
 }
-.course-content{
-    margin-top: 1px !important;
-    color: gray;
+.course-content {
+  margin-top: 1px !important;
+  color: gray;
 }
-#shenase{
-    width: 10%;
+#shenase {
+  width: 10%;
 }
-#markaz{
-    width: 28%;
+#markaz {
+  width: 28%;
 }
-#term{
-width: 7%;
+#term {
+  width: 7%;
 }
-#dars{
-width: 22%;
+#dars {
+  width: 22%;
 }
-#zirgroup{
-width: 10%;
+#zirgroup {
+  width: 10%;
 }
-#modares{
-width: 13%;
+#modares {
+  width: 13%;
 }
-#enter-links{
-    font-size: 11px;
-    color: blue;
-    width: 10%;
+#enter-links {
+  font-size: 11px;
+  color: blue;
+  width: 10%;
 }
-.enter-links-link{
-    width: 18%;
+.enter-links-link {
+  width: 18%;
 }

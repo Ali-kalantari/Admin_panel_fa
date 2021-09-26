@@ -10,34 +10,50 @@ import { Link } from "react-router-dom";
 
 export default function Topbar(props) {
   const [date] = useState(moment().format("jYYYY/jM/jD"));
-  const [toggle,settoggle]=useState(false)
+  const [toggle, settoggle] = useState(false);
 
-  const Dropdown= ()=>{
-    return(
-      <div className='dropdown'>
-        <Link to='/profile'>
-        <div className='dropdown-item'>پروفایل<span><CgProfile /></span> </div>
+  const Dropdown = () => {
+    return (
+      <div className="dropdown">
+        <Link to="/profile">
+          <div className="dropdown-item">
+            پروفایل
+            <span>
+              <CgProfile />
+            </span>{" "}
+          </div>
         </Link>
-        <Link to='/changepassword'>
-        <div className='dropdown-item'>تغییر کلمه عبور <span><RiLockPasswordLine/></span></div>
+        <Link to="/changepassword">
+          <div className="dropdown-item">
+            تغییر کلمه عبور{" "}
+            <span>
+              <RiLockPasswordLine />
+            </span>
+          </div>
         </Link>
-        <Link to=''>
-        <div className='dropdown-item'>خروج<span><ImExit/></span></div>
+        <Link to="">
+          <div className="dropdown-item">
+            خروج
+            <span>
+              <ImExit />
+            </span>
+          </div>
         </Link>
       </div>
-    )
-  }
+    );
+  };
 
   return (
     <div className="topbar">
       <div className="topbar-top">
-        {
-          toggle ? 
-          <Dropdown /> : null
-        }
+        {toggle ? <Dropdown /> : null}
         <div className="topbar-left">
           <div className="topbar-left-item">
-            <img onClick={()=>settoggle(!toggle)} src="https://i.pravatar.cc/300" alt="avatar" />
+            <img
+              onClick={() => settoggle(!toggle)}
+              src="https://i.pravatar.cc/300"
+              alt="avatar"
+            />
           </div>
           <div className="topbar-left-item">
             <span>{date}</span>

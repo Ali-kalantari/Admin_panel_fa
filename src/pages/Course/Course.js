@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./course.css";
-import {coursedata}  from "./../../Data";
+import { coursedata } from "./../../Data";
 export default function Course() {
   return (
     <div className="course">

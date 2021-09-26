@@ -4,132 +4,129 @@
   height: 97px;
   display: flex;
   flex-direction: column;
- 
 }
-.topbar-top{
-    height: 57px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #726a6a46;
+.topbar-top {
+  height: 57px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #726a6a46;
 }
 .topbar-right {
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.topbar-right-item{
-    font-size: 11px;
-    color: #00001580;
-    cursor: pointer;
+.topbar-right-item {
+  font-size: 11px;
+  color: #00001580;
+  cursor: pointer;
 }
-.topbar-right-item.icon{
-    font-size: 15px;
-    margin-top: 8px;
-    cursor: pointer;
+.topbar-right-item.icon {
+  font-size: 15px;
+  margin-top: 8px;
+  cursor: pointer;
 }
 
 .topbar-left {
-    width: 35%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.topbar-left-item{
-    width: 35%;
-    display: flex;
-    justify-content: center;
+.topbar-left-item {
+  width: 35%;
+  display: flex;
+  justify-content: center;
 }
-.topbar-left img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-bottom: 5px;
-    cursor: pointer;
+.topbar-left img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  cursor: pointer;
 }
-.topbar-left-item span{
-    font-size: 16px;
-    font-weight: 600;
-    color: green;
+.topbar-left-item span {
+  font-size: 16px;
+  font-weight: 600;
+  color: green;
 }
-.topbar-bottom{
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid rgb(207, 201, 201);
+.topbar-bottom {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(207, 201, 201);
 }
-.topbar-bottom-right{
-    width: 7%;
-    font-size: 12px;
-    /* margin-right: -40px; */
-}
-
-.topbar-bottom-link{
-    text-decoration: none;
-    width: 7%;
-    color: white;
-    padding: 2px;
-    font-size: 12px;
-    margin-left: 10px;
-    background-color:#f04728;
-    text-align: center;
-    height: 21px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.topbar-right a{
-    color: inherit;
-    text-decoration: none;
+.topbar-bottom-right {
+  width: 7%;
+  font-size: 12px;
+  /* margin-right: -40px; */
 }
 
-.dropdown{
-    display: flex;
-    flex-direction: column;
-    width: 180px;
-    height: 120px;
-    background-color: #fff;
-    position: absolute;
-    top: 56px;
-    left: 35px;
-    border: 1px solid lightgray;
+.topbar-bottom-link {
+  text-decoration: none;
+  width: 7%;
+  color: white;
+  padding: 2px;
+  font-size: 12px;
+  margin-left: 10px;
+  background-color: #f04728;
+  text-align: center;
+  height: 21px;
+  border-radius: 5px;
+  cursor: pointer;
 }
-.dropdown-item{
-    color:black;
-    height: 40px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 14px;
-}
-.dropdown-item span{
-    display: flex;
-    align-items: center;
-    margin-left: 15px;
-    margin-right: 5px;
-    font-size: 20px;
+.topbar-right a {
+  color: inherit;
+  text-decoration: none;
 }
 
-    
-@media(min-width: 992px) and (max-width:768px ){
-    .topbar-bottom-link{
-        background-color: blue;
-        width: 57%;
-    }
-    .topbar-bottom-right{
-        width: 10%;
-    }
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 120px;
+  background-color: #fff;
+  position: absolute;
+  top: 56px;
+  left: 35px;
+  border: 1px solid lightgray;
+}
+.dropdown-item {
+  color: black;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 14px;
+}
+.dropdown-item span {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 5px;
+  font-size: 20px;
 }
 
-@media(min-width: 222px) and (max-width:992px ){
-    .topbar-bottom-link{
-        width: 15%;
-    }
-    .topbar-bottom-right{
-        width: 17%;
-    }
-    
+@media (min-width: 992px) and (max-width: 768px) {
+  .topbar-bottom-link {
+    background-color: blue;
+    width: 57%;
+  }
+  .topbar-bottom-right {
+    width: 10%;
+  }
+}
+
+@media (min-width: 222px) and (max-width: 992px) {
+  .topbar-bottom-link {
+    width: 15%;
+  }
+  .topbar-bottom-right {
+    width: 17%;
+  }
 }
