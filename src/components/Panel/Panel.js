@@ -64,6 +64,7 @@ export default function Panel(props) {
               >
                 ارزیابی ها
               </li>
+              <Link to='/onlineclass'>
               <li
                 className={
                   splitLocation[1] === "onlineclass"
@@ -74,7 +75,8 @@ export default function Panel(props) {
                 {" "}
                 جلسات آنلاین پیش رو
               </li>
-              <Link to='userdoc'>
+              </Link>
+              <Link to='/userdoc'>
               <li
                 className={
                   splitLocation[1] === "userdoc"

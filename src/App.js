@@ -7,6 +7,7 @@ import Topbar from "./components/Topbar/Topbar";
 import Course from "./pages/Course/Course";
 import Profile from "./pages/Profile/Profile";
 import UserDoc from "./pages/UserDoc/UserDoc";
+import Onlineclass from "./pages/Onlineclass/Onlineclass";
 
 function App() {
   const [togglepanel, settogglepanel] = useState(true);
@@ -35,6 +36,9 @@ function App() {
               </Route>
               <Route path='/userdoc'>
                 <UserDoc />
+              </Route>
+              <Route path='/onlineclass'>
+                <Onlineclass />
               </Route>
             </Switch>
           </div>

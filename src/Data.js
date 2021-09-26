@@ -1,4 +1,4 @@
-export  const coursedata = [
+export const coursedata = [
   {
     id: 4759,
     center: "دانشگاه آزاد اسلامی واحد تهران مرکز",
@@ -46,5 +46,59 @@ export  const coursedata = [
     lesson: "مدیریت پروژه",
     zirgroup: 4263,
     teacher: "رضا معینی",
-  }
+  },
 ];
+
+const onlineclassdata = [
+  {
+    subject: "جلسه 3",
+    id: 4759,
+    center: "دانشگاه آزاد اسلامی واحد تهران مرکز",
+    begin: "چهارشنبه 12:30",
+    finish: "چهارشنبه 16:30",
+    lesson: "ساختمان داده و الگوریتم",
+    zirgroup: 8437,
+    teacher: "رضا باقری",
+  },
+  {
+    subject: "جلسه 3",
+    id: 4789,
+    center: "دانشگاه آزاد اسلامی واحد تهران مرکز",
+    begin: "دوشنبه 12:30",
+    finish: "دوشنبه 16:30",
+    lesson: "مدیریت پروژه",
+    zirgroup: 7457,
+    teacher: "محمد کرازی",
+  },
+  {
+    subject: "جلسه 3",
+    id: 4799,
+    center: "دانشگاه آزاد اسلامی واحد تهران مرکز",
+    begin: "شنبه 9:30",
+    finish: "شنبه 11:30",
+    lesson: "تربیت بدنی 2",
+    zirgroup: 8431,
+    teacher: "صالح مصطفوی",
+  },
+  {
+    subject: "جلسه 3",
+    id: 4719,
+    center: "دانشگاه آزاد اسلامی واحد تهران مرکز",
+    begin: "پنج شنبه 12:30",
+    finish: "پنج شنبه 16:30",
+    lesson: "ساختمان داده و الگوریتم",
+    zirgroup: 8437,
+    teacher: "رضا باقری",
+  },
+  {
+    subject: "جلسه 3",
+    id: 4739,
+    center: "دانشگاه آزاد اسلامی واحد تهران مرکز",
+    begin: "جمعه 13:00",
+    finish: "جمعه 15:00",
+    lesson: "برنامه نویسی جاوااسکریپت",
+    zirgroup: 8437,
+    teacher: "سارا علمشاهی",
+  },
+];
+export default onlineclassdata;
