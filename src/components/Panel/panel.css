@@ -78,6 +78,9 @@
   font-size: 21px;
 }
 .panel-tabs {
+  display: none;
+}
+.panel-tabs.active{
   width: 90%;
   margin-top: 20px;
   display: flex;
@@ -88,6 +91,7 @@
 .panel-tabs ul {
   list-style: none;
   width: 100%;
+  
 }
 .tabs-title {
   font-weight: 600;
@@ -107,7 +111,9 @@
   color: violet;
 }
 
-
+.sidebar-icon{
+  color: black;
+}
 @media(min-width: 368px) and (max-width:992px ){
   .panel.show{
     right: -290px;
