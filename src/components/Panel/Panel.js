@@ -61,6 +61,7 @@ export default function Panel(props) {
                   کلاس ها
                 </li>
               </Link>
+              <Link to='/match'>
               <li
                 className={
                   splitLocation[1] === "match"
@@ -70,6 +71,7 @@ export default function Panel(props) {
               >
                 آزمون های پیش رو
               </li>
+              </Link>
               <li
                 className={
                   splitLocation[1] === "evaluation"
