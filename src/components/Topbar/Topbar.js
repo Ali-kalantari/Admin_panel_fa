@@ -18,7 +18,7 @@ export default function Topbar(props) {
         <Link to='/profile'>
         <div className='dropdown-item'>پروفایل<span><CgProfile /></span> </div>
         </Link>
-        <Link to='profile'>
+        <Link to='/changepassword'>
         <div className='dropdown-item'>تغییر کلمه عبور <span><RiLockPasswordLine/></span></div>
         </Link>
         <Link to=''>

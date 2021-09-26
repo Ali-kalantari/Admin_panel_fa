@@ -27,7 +27,7 @@ export default function Panel(props) {
               <Link to="/dashboard">
                 <li
                   className={
-                    splitLocation[1] === "dashboard"
+                    splitLocation[1] === "dashboard" || "changepassword"
                       ? "tabs-item active"
                       : "tabs-item"
                   }

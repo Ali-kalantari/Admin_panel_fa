@@ -8,6 +8,7 @@ import Course from "./pages/Course/Course";
 import Profile from "./pages/Profile/Profile";
 import UserDoc from "./pages/UserDoc/UserDoc";
 import Onlineclass from "./pages/Onlineclass/Onlineclass";
+import ChangePassword from "./pages/ChangePassword/ChangePassword";
 
 function App() {
   const [togglepanel, settogglepanel] = useState(true);
@@ -39,6 +40,9 @@ function App() {
               </Route>
               <Route path='/onlineclass'>
                 <Onlineclass />
+              </Route>
+              <Route path='/changepassword'>
+                <ChangePassword />
               </Route>
             </Switch>
           </div>
