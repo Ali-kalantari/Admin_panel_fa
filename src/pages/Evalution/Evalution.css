@@ -1,0 +1,21 @@
+.Evalution{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Evalution div{
+  box-shadow: 0px 0px 17px 6px rgba(81, 120, 122, 0.43);
+    width: 90%;
+    height: 100px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+.Evalution span{
+    font-size: 14px;
+    width: 100%;
+    text-align: right;
+    margin-right: 20px;
+}

@@ -10,6 +10,7 @@ import UserDoc from "./pages/UserDoc/UserDoc";
 import Onlineclass from "./pages/Onlineclass/Onlineclass";
 import ChangePassword from "./pages/ChangePassword/ChangePassword";
 import Match from "./pages/Match/Match";
+import Evalution from "./pages/Evalution/Evalution";
 function App() {
   const [togglepanel, settogglepanel] = useState(true);
 
@@ -46,6 +47,9 @@ function App() {
               </Route>
               <Route path='/match'>
                 <Match />
+              </Route>
+              <Route path='/evalution'>
+                <Evalution />
               </Route>
             </Switch>
           </div>

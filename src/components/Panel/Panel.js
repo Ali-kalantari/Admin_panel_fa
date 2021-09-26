@@ -72,15 +72,17 @@ export default function Panel(props) {
                 آزمون های پیش رو
               </li>
               </Link>
+              <Link to='/evalution'>
               <li
                 className={
-                  splitLocation[1] === "evaluation"
+                  splitLocation[1] === "evalution"
                     ? "tabs-item active"
                     : "tabs-item"
                 }
               >
                 ارزیابی ها
               </li>
+              </Link>
               <Link to="/onlineclass">
                 <li
                   className={
