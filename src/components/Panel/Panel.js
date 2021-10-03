@@ -27,6 +27,9 @@ export default function Panel(props) {
     <div className={props.show ? "panel show" : "panel hide"}>
       <div className="panel-top">
         <div className="panel-title">
+          <span onClick={props.toggle} className="panel-top-close-btn">
+            X
+          </span>
           <span id="panel-title">نام سایت</span>
           <span>
             <FaBook color="white" />

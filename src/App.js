@@ -17,7 +17,9 @@ function App() {
   const handletogglepanel = () => {
     settogglepanel(!togglepanel);
   };
-
+  const handletogglepanel_close = () => {
+    settogglepanel(false);
+  };
   return (
     <BrowserRouter>
       <div className="App">
@@ -55,7 +57,7 @@ function App() {
           </div>
         </div>
         <div className={togglepanel ? "app-sidebar show" : "app-sidebar hide"}>
-          <Panel show={togglepanel} />
+          <Panel show={togglepanel} toggle={handletogglepanel_close} />
         </div>
       </div>
     </BrowserRouter>

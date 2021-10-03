@@ -22,6 +22,9 @@
   align-items: center;
   margin-top: auto;
 }
+.panel-top-close-btn {
+  display: none;
+}
 #panel-title {
   margin-right: 10px;
   margin-bottom: 5px;
@@ -113,8 +116,18 @@
 .sidebar-icon {
   color: black;
 }
+
 @media (min-width: 368px) and (max-width: 992px) {
   .panel.show {
-    right: -290px;
+    right: +0px;
+    width: 225px;
+  }
+  .panel-top-close-btn {
+    display: inline;
+    margin-right: 40px;
+    color: red;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
   }
 }
