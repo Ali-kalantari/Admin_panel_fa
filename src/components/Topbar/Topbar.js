@@ -60,13 +60,13 @@ export default function Topbar(props) {
           </div>
         </div>
         <div className="topbar-right">
-          <Link to="guide">
+          <Link to="/guide">
             <div className="topbar-right-item">راهنما</div>
           </Link>
-          <Link to="dashboard">
+          <Link to="/dashboard">
             <div className="topbar-right-item">داشبورد</div>
           </Link>
-          <Link to="/">
+          <Link to="/dashboard">
             <div className="topbar-right-item">صفحه اصلی</div>
           </Link>
           <div onClick={props.toggle} className="topbar-right-item icon">
