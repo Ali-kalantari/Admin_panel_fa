@@ -34,10 +34,10 @@
   color: gray;
 }
 #shenase {
-  width: 10%;
+  width: 8%;
 }
 #markaz {
-  width: 28%;
+  width: 30%;
 }
 #term {
   width: 7%;
@@ -58,4 +58,26 @@
 }
 .enter-links-link {
   width: 18%;
+}
+
+@media (min-width: 650px) and (max-width: 800px) {
+  .course-content {
+    height: 50px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 650px) {
+  .course-content {
+    height: 80px;
+  }
+  .course-header-title {
+    height: 50px;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 450px) {
+  .course-content,
+  .course-header-title {
+    height: 120px;
+  }
 }
