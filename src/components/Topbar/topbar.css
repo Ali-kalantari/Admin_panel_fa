@@ -120,6 +120,7 @@
   .topbar-bottom-right {
     width: 10%;
   }
+  
 }
 
 @media (min-width: 222px) and (max-width: 992px) {
@@ -128,5 +129,17 @@
   }
   .topbar-bottom-right {
     width: 17%;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 600px) {
+  .topbar-right{
+    width: 45%;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 450px) {
+  .topbar-right{
+    width: 65%;
   }
 }
