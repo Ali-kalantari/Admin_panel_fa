@@ -20,7 +20,7 @@ export default function Course() {
         {coursedata.map((i) => {
           return (
             <div key={i.id} className="course-content">
-              <Link id="enter-links-link">
+              <Link to='/course' id="enter-links-link">
                 <span id="enter-links">ورود به کلاس</span>
               </Link>
 
